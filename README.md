@@ -1,2 +1,1 @@
-# React-chat-application
-
+# Chat Application using React , Firebase - Aayusha Regmi
