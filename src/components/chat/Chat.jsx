@@ -35,6 +35,7 @@ return(
 <div className="message">
     <img src="./avatar.png" alt=""  />
     <div className="texts">
+       
         <p>Lorem ipsum dolor sit amet consectetur adipisicing 
             elit. Aperiam ducimus soluta tenetur similique ipsum molestiae odio vel, explicabo perspiciatis 
             quasi corporis ex culpa ab minus impedit atque vitae voluptas nesciunt!</p>
@@ -43,8 +44,9 @@ return(
 </div>
 
 <div className="message own">
-   
+
     <div className="texts">
+    <img src="./chat-image.jpg" alt="" srcset="" />
         <p>Lorem ipsum dolor sit amet consectetur adipisicing 
             elit. Aperiam ducimus soluta tenetur similique ipsum molestiae odio vel, explicabo perspiciatis 
             quasi corporis ex culpa ab minus impedit atque vitae voluptas nesciunt!</p>
