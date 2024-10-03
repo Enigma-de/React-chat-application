@@ -81,7 +81,7 @@
     
 }
 .chatlist::-webkit-scrollbar-thumb {
-    background-color: rgba(0, 0, 0, 0.682); /* Color of the scrollbar handle transparent */
+    background-color: transparent; /* Color of the scrollbar handle transparent */
     border-radius: 10px;
      /* Roundness of the handle */
 }

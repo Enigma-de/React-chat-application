@@ -69,7 +69,8 @@ gap: 20px;
    background-color: transparent; /* Background of the scrollbar track */
 }
 &::-webkit-scrollbar-thumb{
-        background-color: black; /* Color of the scrollbar thumb */
+        background-color:transparent;
+        /* Color of the scrollbar thumb */
         border-radius: 10px; /* Rounded corners for the scrollbar thumb */
         border: 2px solid transparent;
        }
