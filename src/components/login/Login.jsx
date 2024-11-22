@@ -9,7 +9,7 @@ return(
   <form>
     <input type="text" name="username" id="username" placeholder="Username" />
     <input type="password" name="password" id="password" placeholder="Password" />
-    <input type="button" value="LogIn" />
+    <input type="button" id="logbutton" value="LogIn" />
   </form>
   <p className="noaccountline">Don't Have an account? <button className="Register" onClick={()=>navigate("/Signup")} >Register</button></p>
   </div>
