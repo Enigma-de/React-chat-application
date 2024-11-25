@@ -11,6 +11,7 @@ return(
     <input type="password" name="password" id="password" placeholder="Password" />
     <input type="button" id="logbutton" value="LogIn" />
   </form>
+  <p className="forgot-password">Forgot Password?</p>
   <p className="noaccountline">Don't Have an account? <button className="Register" onClick={()=>navigate("/Signup")} >Register</button></p>
   </div>
 
