@@ -10,7 +10,7 @@ margin-left: 25rem;
 padding: 2rem;
 
 h2{
-margin-left: 2rem;
+margin-left: 6rem;
 }
 form{
     padding: 1rem;
@@ -25,6 +25,12 @@ input{
   padding: 5px;
 
  
+  }
+  .eye-icon{
+    margin-left: -1.4rem;
+    color: #6d6e70;
+    font-size: 12px;
+    cursor:pointer;
   }
   label{
 
@@ -43,12 +49,12 @@ input{
     color: white;
     border:none;
     border-radius: 8px;
-    padding: 5px 15px;
+    padding: 5px 20px;
     margin-top: 1rem;
     cursor:pointer;
-   
+    margin-left: 12rem;
     outline: none;
-    font-size: 14px;
+    font-size: 16px;
   }
     .submit:hover{
         background-color: #4478fb;
@@ -59,10 +65,10 @@ input{
         color: white;
         border:none;
         border-radius: 8px;
-       padding: 5px 15px;
-        margin-left: 15rem;
+       padding: 5px 20px;
+       
         cursor:pointer;
-        font-size: 14px;
+        font-size: 16px;
         outline: none;
         
     }

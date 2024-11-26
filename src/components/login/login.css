@@ -42,7 +42,7 @@ form{
     color: white;
     cursor:pointer;
     outline: none;
-    font-size: 14px;
+    font-size: 16px;
 
     
 }
@@ -54,15 +54,15 @@ form{
     
 }
 .forgot-password{
-    font-size: 14px;
+    font-size: 13px;
     margin-left: 9rem;
-    color: #5b87f7;
+    color: #cfd5e4;
    cursor: pointer;
     margin-top: -1.1rem;
 }
 .Register{
     background: none;
-    color: #18a12d;
+    color: #5c8afc;
     font-size: 16px;
     cursor:pointer;
     border:none;
