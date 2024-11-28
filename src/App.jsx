@@ -5,6 +5,7 @@ import List from "./components/list/List";
 import Login from "./components/login/Login";
 import Signup from "./components/login/Signup";
 import Notification from "./components/notification/Notification";
+import AddUser from "./components/list/chatList/addUser/AddUser";
 const App = () => {
   const user = true;
   return (
@@ -15,6 +16,7 @@ const App = () => {
          <>
      <List/>
       <Chat/>
+      <AddUser/>
       <Detail/>
       </>
     ):(
