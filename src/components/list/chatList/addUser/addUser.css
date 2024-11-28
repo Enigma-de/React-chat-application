@@ -1,0 +1,28 @@
+.add-user{
+    background-color: rgba(53, 121, 177, 0.695);
+    width:500px;
+    align-self: center;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.add-by-name{
+    display: flex;
+    flex-direction: row;
+    gap :0.6rem;
+
+    .input-name{
+        padding: 5px;
+        outline: none;
+        border: none;
+        border-radius: 5px;
+        background-color: rgba(243, 248, 253, 0.932);
+    }
+    .input-search-btn{
+        color: white;
+        border:none;
+        border-radius: 5px;
+        padding: 5px 12px;
+        font-size: 16px;
+        background-color: rgb(8, 124, 219);
+    }
+}
