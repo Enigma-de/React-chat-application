@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEye, faEyeSlash } from "@fortawesome/free-solid-svg-icons";
 import React, { useState } from "react";
+import { toast,ToastContainer } from "react-toastify";
 const Signup =() =>{
     const lognavigate = useNavigate();
     const [password,setPassword]=useState("");
@@ -15,10 +16,14 @@ const Signup =() =>{
     const toggleVisibilityForConfirm=()=>{
         setShowConfirmPassword(!showConfirmPassword);
     }
+    const handleSignUp = e =>{
+        e.preventDefault();
+        toast.success("Success.");
+    }
 return(
     <div className="Signup">
         <h2>Create an account!</h2>
-        <form >
+        <form onSubmit={handleSignUp} >
         <div>
         <label className="label" htmlFor="UserName">UserName <span>*</span></label><br />
         <input type="text" placeholder="First Name"/> &nbsp;
@@ -39,7 +44,7 @@ return(
 
         <div className="buttons">
         <button type="reset" className="cancel-signup" onClick={()=>lognavigate("/Login")} >Cancel</button>
-            <button type="submit" className="submit">Submit</button>
+            <button type="submit" className="submit" >Submit</button>
           
         </div>
         </form>
