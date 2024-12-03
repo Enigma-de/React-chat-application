@@ -1,8 +1,11 @@
 .add-user{
-    background-color: rgba(53, 121, 177, 0.695);
-    width:500px;
+    background-color: rgba(54, 55, 56, 0.894);
+    width:310px;
     align-self: center;
-    padding: 1rem;
+    position:absolute;
+    padding: 3rem 1rem;
+    margin-top: -30rem;
+    margin-left: 31rem;
     border-radius: 1rem;
 }
 .add-by-name{
@@ -11,7 +14,7 @@
     gap :0.6rem;
 
     .input-name{
-        padding: 5px;
+        padding: 10px;
         outline: none;
         border: none;
         border-radius: 5px;
