@@ -12,7 +12,7 @@ const ChatList =()=>{
                   <input type="text" placeholder="Search"/>
                 </div>
                 <img className="add" src={addMode ? "./minus.png" : "./plus.png"} alt="" 
-                onClick={()=> setAddMode((prev)=> !prev)}/> {/* When user clicks on add btn , changes to minus icon, initially add is shown i.e on src(condition if false: add and viceversa) */}
+                onClick={()=> setAddMode((prev)=> !prev , document.querySelector(".add").style.transition = "all 5s ease-out") }/> {/* When user clicks on add btn , changes to minus icon, initially add is shown i.e on src(condition if false: add and viceversa) */}
             </div>
             <div className="item">
                 <img src="./avatar.png" alt="" />
