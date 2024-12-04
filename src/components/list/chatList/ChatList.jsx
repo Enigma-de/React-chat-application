@@ -71,7 +71,7 @@ const ChatList =()=>{
                 <p>Hello friend!</p>
                 </div>
             </div>
-            <AddUser/>
+            {addMode && <AddUser/>}
         </div>
 
         

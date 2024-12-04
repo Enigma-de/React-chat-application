@@ -1,10 +1,10 @@
 .add-user{
-    background-color: rgba(54, 55, 56, 0.894);
+    background-color: rgba(37, 37, 37, 0.791);
     width:310px;
     align-self: center;
     position:absolute;
     padding: 3rem 1rem;
-    margin-top: -30rem;
+    margin-top: -35rem;
     margin-left: 31rem;
     border-radius: 1rem;
 }
@@ -27,5 +27,43 @@
         padding: 5px 12px;
         font-size: 16px;
         background-color: rgb(8, 124, 219);
+    }
+}
+.user{
+    display: flex;
+    margin-top: 1rem;
+    margin-left: -2px;
+    margin-right: -5px;
+    .detail{
+        display: flex;
+        flex-direction: row;
+        gap:0.5rem;
+        margin-top: 1.2rem;
+
+        span{
+            margin-top: 0.5rem;
+
+        }
+    }
+
+    img{
+        border-radius: 50%;
+        height: 2.5rem;
+        width: 2.5rem;
+    }
+    button{
+        border-radius: 20px;
+        cursor: pointer;
+   margin-top: 15px;
+     background-color: rgba(249, 241, 230, 0.678);
+     border: 5px solid rgba(43, 42, 42, 0.798);
+        padding: 0 8px;
+
+        
+       
+    }
+    button:hover{
+        background-color: rgb(8, 124, 219);
+        color: white;
     }
 }
